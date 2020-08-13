@@ -1,3 +1,1 @@
-# AtCoder Beginner Contest 174
-
-- [AtCoder Beginner Contest 174 - AtCoder](https://atcoder.jp/contests/abc174)
+# [AtCoder Beginner Contest 174 - AtCoder](https://atcoder.jp/contests/abc174)
