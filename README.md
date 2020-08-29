@@ -16,3 +16,10 @@
   - [AtCoder（競技プログラミング）の色・ランクと実力評価、問題例 - chokudaiのブログ](http://chokudai.hatenablog.com/entry/2019/02/11/155904)
 - 参考書や進め方などの参考
   - [算数の教養がほとんどないプログラマが1年間AtCoderをやった結果の振り返り｜きりみんちゃんノート｜note](https://note.com/kirimin_chan/n/n889ec80b6fbc)
+
+
+
+## golangの参考
+
+- [Goで始めるAtCoderのススメ（初心者向け） - Qiita](https://qiita.com/syumai/items/d4d436eacc58ffbd8200)
+- [AtCoder初心者が迷って調べたGo文法 - Qiita](https://qiita.com/kzkiq2nd/items/8f7258ebc030425785f6)
