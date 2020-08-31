@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	a()
@@ -8,5 +11,7 @@ func main() {
 
 func a() {
 	msg := "world"
-	fmt.Printf("Hello, %s!", msg)
+	fmt.Printf("Hello, %s!\n", msg)
+
+	fmt.Println(math.Pow10(2))
 }
