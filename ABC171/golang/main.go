@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"math"
+	"regexp"
 )
 
 func main() {
@@ -10,8 +10,14 @@ func main() {
 }
 
 func a() {
-	msg := "world"
-	fmt.Printf("Hello, %s!\n", msg)
+	var s string
+	fmt.Scanf("%s", &s)
+	r := regexp.MustCompile(`[A-Z]`)
 
-	fmt.Println(math.Pow10(2))
+	if r.MatchString(s) {
+		fmt.Println("A")
+
+	} else {
+		fmt.Println("a")
+	}
 }
