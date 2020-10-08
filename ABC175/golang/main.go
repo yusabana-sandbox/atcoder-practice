@@ -5,6 +5,8 @@ import "fmt"
 func main() {
 	fmt.Println("Run...")
 
-	RunA()
+	//RunA()
 	//RunAAnswer()
+
+	RunB()
 }
