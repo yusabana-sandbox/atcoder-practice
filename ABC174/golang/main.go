@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
@@ -11,22 +10,34 @@ func main() {
 }
 
 func RunB() {
-	var count int
-	var N, D float64
-	fmt.Scanf("%f %f", &N, &D)
+	var N, D int
+	fmt.Scanf("%d %d", &N, &D)
 
-	for i := float64(0); i < N; i++ {
-		var x, y float64
-		fmt.Scanf("%f %f", &x, &y)
+	cnt := 0
+	//a := make([][]int, N)
 
-		distance := math.Sqrt(math.Pow(x, 2) + math.Pow(y, 2))
+	//for i, _ := range a {
+	//	var x, y int
+	//	fmt.Scan(&x, &y)
+	//	a[i] = []int{x, y}
+	//}
+	//
+	//for _, it := range a {
+	//	if it[0]*it[0]+it[1]*it[1] <= D*D {
+	//		cnt++
+	//	}
+	//}
 
-		if distance <= D {
-			count++
+	for i := 0; i < N; i++ {
+		var x, y int
+		fmt.Scan(&x, &y)
+
+		if x*x+y*y <= D*D {
+			cnt++
 		}
 	}
 
-	fmt.Println(count)
+	fmt.Println(cnt)
 }
 
 func RunA() {
@@ -39,6 +50,3 @@ func RunA() {
 		fmt.Println("No")
 	}
 }
-
-
-
