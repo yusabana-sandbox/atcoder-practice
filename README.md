@@ -21,5 +21,7 @@
 
 ## golangの参考
 
+- [Go 言語で標準入力から読み込む競技プログラミングのアレ --- 改訂第二版 - Qiita](https://qiita.com/tnoda_/items/b503a72eac82862d30c6)
 - [Goで始めるAtCoderのススメ（初心者向け） - Qiita](https://qiita.com/syumai/items/d4d436eacc58ffbd8200)
 - [AtCoder初心者が迷って調べたGo文法 - Qiita](https://qiita.com/kzkiq2nd/items/8f7258ebc030425785f6)
+
